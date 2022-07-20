@@ -26,7 +26,7 @@ function App() {
   }, []);
 
   const onEnter = () => {
-    console.log(correctWord);      
+    // console.log(correctWord);      
                                       // check currectWord
     if (currAttempt.letter !== 5) return;
 
